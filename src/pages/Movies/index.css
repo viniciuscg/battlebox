@@ -1,0 +1,27 @@
+.movies-cards {
+    display: grid;
+    grid-template-columns: 185px 185px 185px 185px;
+    grid-gap: 30px;
+}
+.body-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.movies-button {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 60px;
+}
+.button-load-more {
+    height: 50px;
+    border: none;
+    background-color: rgba(24, 124, 206, 0.58);
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}

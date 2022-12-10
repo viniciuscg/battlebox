@@ -1,0 +1,18 @@
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #032541;
+    color: white;
+    padding-bottom: 50px;
+}
+.footer-main p {
+    font-weight: 600;
+}
+.footer-main span {
+    font-weight: 600;
+    font-size: 2em;
+}
+.footer-main img {
+    width: 300px;
+}

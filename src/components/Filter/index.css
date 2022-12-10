@@ -1,0 +1,61 @@
+.box-filter button {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(190, 190, 190, 0.342);
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+    -webkit-box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.box-filter-all {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.movies-h1-text {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.801);
+
+}
+.order-for {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 5px 5px;
+    border-left: 1px solid rgba(190, 190, 190, 0.342);
+    border-right: 1px solid rgba(190, 190, 190, 0.342);
+    border-bottom: 1px solid rgba(190, 190, 190, 0.342);
+    -webkit-box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    background-color: white;
+    color: rgba(19, 18, 18, 0.623);
+    font-size: 14px;
+    padding: 10px;
+    gap: 10px;
+}
+.order-for select {
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(206, 204, 204, 0.486);
+    font-size: 1em;
+    color: rgba(0,0,0,0.5);
+    font-weight: 600;
+    cursor: pointer;
+}
+.order-for option {
+    font-size: 14px;
+    color: rgba(19, 18, 18, 0.623);
+}

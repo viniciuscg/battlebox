@@ -1,0 +1,26 @@
+.card {
+    background-color: white;
+    border: 1px solid rgba(124, 121, 121, 0.11);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 10px;
+    -webkit-box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 27px -18px rgba(0,0,0,0.5);
+}
+.card img {
+    border-radius: 10px 10px 0px 0px;
+    width: 185px;
+    height: 278px;
+}
+.card p {
+    padding: 0px 0px 10px 10px;
+    font-size: 13px;
+}
+.card a {
+    padding: 15px 0px 0px 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+} 
